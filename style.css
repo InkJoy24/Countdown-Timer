@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(IMG/benjamin-voros-U-Kty6HxcQc-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 5rem;
+}
+
+.coutdown-conteiner {
+    width: 607.84px;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: -8px;
+    
+}
+
+.coutdown-el {
+    margin-top: -4.5em;
+    padding-right: 15px;
+    text-align: center;
+}
+
+.coutdown-el span {
+    margin-top: -10px;
+    font-size: 1.5rem;
+}
+
+/* Media */
+
+@media (max-width: 800px) {
+    .coutdown-el {
+        padding-right: 10px;}
+    .coutdown-conteiner {
+        padding-left: 10px;
+        width: auto;
+    }
+}
+
+@media (max-width: 370px) {
+    .coutdown-el {
+        padding-right: 5px;
+    }
+}
+
+
